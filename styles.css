@@ -6,3 +6,8 @@
     text-align: center;
     align-items: center;
 }
+
+#error-msg
+{
+    display: block;
+}
