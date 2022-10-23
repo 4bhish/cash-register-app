@@ -18,10 +18,10 @@
     align-items: center;
 }
 
-#error-msg
-{
-    display: block;
-}
+.discription {
+    font-size: larger;
+    margin: 1rem;
+  }
 
 .return-change
 {
@@ -67,16 +67,17 @@ input {
     margin: 1rem 0 0;
   }
 
-.change-table {
-    width: 50%;
+.return-change {
+   
     text-align: justify;
     border-collapse: collapse;
     margin: auto;
   }
 .return-change caption {
     margin: 1rem auto;
-    font-size: x-large;
+    font-size: larger;
     font-weight: 500;
+    
   }
   
   th,
