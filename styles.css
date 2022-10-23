@@ -32,21 +32,21 @@ h1{
     color: var(--color-primary);
 }
 label {
-    display: block;
-    font-size: large;
-    font-weight: 600;
-  }
-  
-  input {
-    font-size: 14px;
-    outline: #fff;
-    padding: 0.6rem 1rem;
-    margin: 1rem;
-    border: 2px solid var(--color-primary);
-    border-radius: 0.5rem;
-    width: 100%;
-    max-width: 258px;
-  }
+  display: block;
+  font-size: large;
+  font-weight: 600;
+}
+
+input {
+  font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--color-primary);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}
 
 #check-button {
     background: var(--color-primary);
