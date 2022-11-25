@@ -62,8 +62,6 @@ input {
   border: 1px solid white;
   color: white;
   background: var(--color-btn);
-         
-   
   }
 
 #error-msg {
