@@ -50,6 +50,7 @@ input {
   width: 100%;
   max-width: 258px;
   background: var(--color-secondary);
+  color: white;
 }
 
 #check-button {
