@@ -3,11 +3,15 @@
     margin: 0;
     box-sizing: border-box;
   }
-  :root
-  {
-    --color-primary: #1e40af;
-
-  }
+  :root {
+    --color-primary:#0a0a23;
+    --color-secondary:  #1b1b32;
+    --color-btn: #3b3b4f;
+}
+body
+{
+  background: var(--color-primary);
+}
 .container
 {
     margin: 3rem auto 6rem;
@@ -16,6 +20,7 @@
     width: 50vvw;
     text-align: center;
     align-items: center;
+    color: white;
 }
 
 .discription {
@@ -28,9 +33,7 @@
     display: table;
     border: 2px black;
 }
-h1{
-    color: var(--color-primary);
-}
+
 label {
   display: block;
   font-size: large;
@@ -42,14 +45,25 @@ input {
   outline: #fff;
   padding: 0.6rem 1rem;
   margin: 1rem;
-  border: 2px solid var(--color-primary);
+  border: 2px solid white;
   border-radius: 0.5rem;
   width: 100%;
   max-width: 258px;
+  background: var(--color-secondary);
 }
 
 #check-button {
-    background: var(--color-primary);
+
+
+  display: block;
+  margin: 1rem auto;
+  width: 120px;
+  height: 30px;
+  border: 1px solid white;
+  color: white;
+  background: var(--color-btn);
+         
+    /* background: var(--color-btn);
     border: none;
     color: #fff;
     padding: 0.7rem 1rem;
@@ -58,7 +72,7 @@ input {
     cursor: pointer;
     outline: #fff;
     margin: auto;
-    display: block;
+    display: block; */
   }
 
 #error-msg {
@@ -82,7 +96,7 @@ input {
   
   th,
   td {
-    border: 2px solid var(--color-primary);
+    border: 2px solid white;
     width: 0%;
     border-collapse: collapse;
     padding: 0.4rem;
