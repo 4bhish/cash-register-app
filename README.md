@@ -9,3 +9,5 @@ creating cash register manager web app that will give customer end amount to be 
 - CSS5
 
 Don't forget to leave a ⭐ if you found this useful
+
+![Screenshot (13)](https://user-images.githubusercontent.com/108976136/205937361-8bfe4297-c9d8-44ff-a9ac-d399bfd99e9a.png)
