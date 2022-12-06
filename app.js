@@ -15,6 +15,10 @@ btnCheck.addEventListener("click", function validateAmount()
             calculateChange(amountReturned);
 
         }
+        if(cashGiven.value === billAmount.value)
+{
+    showMessage("We are all square and fair");
+}
         else
         {
             showMessage("Entered Cash Given Amount must be greater or equal than Bill Amount");
@@ -26,7 +30,10 @@ btnCheck.addEventListener("click", function validateAmount()
     {
       showMessage(" Entered Bill Amount must be greater than 0.");
     }
+    
 })
+
+
 
 function showMessage(message)
 {
